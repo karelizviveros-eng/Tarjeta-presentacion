@@ -1,0 +1,21 @@
+AgroMarket — Módulo Catálogo
+
+1. Descripción del módulo
+El módulo de catálogo permite a los usuarios visualizar los productos
+agrícolas disponibles en AgroMarket, con su precio referencial, y
+filtrarlos por categoría (frutas, hortalizas, granos).
+
+2. Decisiones técnicas
+- Se optó por una lista simple en lugar de una tabla para el catálogo
+  inicial, priorizando velocidad de desarrollo y facilidad de lectura
+  en dispositivos móviles.
+- Los filtros se implementaron como una lista separada en la rama
+  feature/filtro-categorias para mantener aislado el desarrollo de esta
+  funcionalidad antes de integrarla a main.
+
+3. Registro de cambios
+- [fecha] Commit "Agrega página inicial del catálogo" - creación de
+  catalogo.html con 5 productos.
+- [fecha] Commit "Agrega filtros por categoría" - se añade sección de
+  filtros en la rama feature/filtro-categorias.
+- [fecha] Merge del pull request feature/filtro-categorias → main.
