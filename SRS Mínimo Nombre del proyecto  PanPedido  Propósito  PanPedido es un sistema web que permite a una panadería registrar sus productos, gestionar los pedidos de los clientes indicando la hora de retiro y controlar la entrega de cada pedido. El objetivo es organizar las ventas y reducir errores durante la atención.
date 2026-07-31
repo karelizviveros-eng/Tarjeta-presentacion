@@ -1,0 +1,104 @@
+Alcance
+El sistema permite
+Registrar productos de la panadería.
+Registrar pedidos indicando la hora de retiro.
+Marcar los pedidos como entregados.
+El sistema NO permite
+Pagos en línea.
+Facturación electrónica.
+Servicio de entrega a domicilio.
+Gestión de proveedores.
+Actores
+Cliente
+Panadero
+Requisitos Funcionales
+Código	Requisito	Prioridad
+RF-01	El panadero podrá registrar productos indicando nombre, precio y cantidad disponible.	Alta
+RF-02	El cliente podrá realizar un pedido indicando los productos seleccionados y la hora de retiro.	Alta
+RF-03	El panadero podrá marcar un pedido como entregado cuando el cliente lo retire.	Alta
+Requisito No Funcional
+Código	Requisito	Prioridad
+RNF-01	El sistema deberá permitir completar un pedido en máximo tres pantallas para facilitar su uso.	Media
+
+Pantalla 1 – Registrar productos
+
+Título
+
+Registrar Producto
+
+Campos
+
+Nombre del producto
+Precio
+Cantidad disponible
+
+Botón
+
+Guardar Producto
+
+Pantalla 2 – Registrar pedido
+
+Título
+
+Nuevo Pedido
+
+Campos
+
+Cliente
+Producto
+Cantidad
+Hora de retiro
+
+Botón
+
+Registrar Pedido
+
+Pantalla 3 – Entregar pedido
+
+Título
+
+Pedidos Pendientes
+
+Pedido	Cliente	Hora	Estado
+001	María	09:00	Pendiente
+
+Botón
+
+Marcar como entregado
+
+Proyecto
+
+PanPedido
+
+Sistema para registrar productos, tomar pedidos con hora de retiro y controlar la entrega de pedidos en una panadería.
+
+Integrantes
+Integrante 1
+Integrante 2
+Integrante 3
+Integrante 4
+Tabla de trazabilidad
+Requisito	Caso de Uso	Pantalla
+RF-01	Registrar productos	Pantalla 1
+RF-02	Tomar pedido	Pantalla 2
+RF-03	Marcar pedido entregado	Pantalla 3
+
+Introducción
+
+"Nuestro proyecto se llama PanPedido y está diseñado para facilitar la gestión de pedidos en una panadería local."
+
+RF-01
+
+Registrar productos con nombre, precio y cantidad.
+
+RF-02
+
+Registrar pedidos indicando la hora en la que el cliente retirará su compra.
+
+RF-03
+
+Marcar los pedidos como entregados una vez que el cliente los retire.
+
+Conclusión
+
+"PanPedido ayuda a organizar mejor los pedidos de la panadería, reduce errores en la entrega y agiliza la atención al cliente."
