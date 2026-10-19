@@ -1,0 +1,13 @@
+abstract class Fighter {
+    boolean isVulnerable() {
+        return false;
+    }
+    abstract int getDamagePoints(Fighter warrior);
+}
+
+class Warrior extends Fighter {
+    @Override
+    int getDamagePoints(Fighter warrior) {
+        return warrior.isVulnerable() ? 10 : 6;
+    }
+}
